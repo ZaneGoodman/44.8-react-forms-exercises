@@ -1,9 +1,12 @@
 import "./App.css";
 import React from 'react';
+import BoxList from "./BoxList";
 
 function App() {
   return(
-    <h1>Here is a component.</h1>
+    <div>
+      <BoxList/>
+    </div>
   )
 }
 
